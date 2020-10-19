@@ -29,15 +29,7 @@ h4, h5 {
 
 }
 
-p {
-    font-family: 'Raleway', sans-serif;
-}
-
-.list-group-item {
-    font-family: 'Raleway', sans-serif;
-}
-
-a {
+p, .list-group-item, a, .btn {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -71,4 +63,8 @@ hr {
     width: 75%;
     margin: auto;
     color: black;
+}
+
+.icon {
+    max-width: 96px;
 }
