@@ -39,15 +39,15 @@ h4 {
 }
 
 .about {
-    background-color: #D5F3FE;
+    background-color: #f0f0f0;
 }
 
 .contact {
-    background-color: #f9e6ff;
+    background-color: white;
 }
 
 .catalog {
-    background-color: #a8e3bc;
+    background-color: black;
 }
 
 .card-pic {
@@ -55,7 +55,7 @@ h4 {
 }
 
 .products {
-    background-color: #faf2dc;
+    background-color: white;
 }
 
 hr {
