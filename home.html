@@ -2,13 +2,262 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
-    <link rel="stylesheet" href="index.css">
+	<title>Responsive Redesign</title>
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#Home">Castle Awards</a>
+		  <div class="collapse navbar-collapse">
+			<ul class="navbar-nav mr-auto mb-lg-0">
+			<li class="nav-item"> <a class="nav-link" href="#Featured Products">Featured Products</a></li>
+			  <li class="nav-item"> <a class="nav-link" href="#Product List">Product Catalog</a></li>
+			  <li class="nav-item"> <a class="nav-link" href="#About Us">About Us</a></li>
+			  <li class="nav-item"> <a class="nav-link" href="#Contact Us">Contact Us</a></li>
+			</ul>
+			<ul class="navbar-nav ml-auto mr-2 mb-lg-0">
+				<li class="nav-item"> <a class="nav-link" href="#">Sign Up</a></li>
+				<li class="nav-item"> <a class="nav-link" href="#">Log In</a></li>
+			  </ul>
+			<form class="d-flex">
+				<input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+		  </div>
+		</div>
+	</nav>
+
+
+	<div id="Home" class="d-flex flex-column trophy justify-content-center align-items-start text-center">
+		<div class="boost">
+			<h1> Castle Awards</h1>
+			<h3>Bringing People Together <br> One Trophy At A Time</h3>
+		</div>
+	</div>
+
+
+	<div id="Featured Products" class="showroom">
+		<h4 class="text-center">Featured Products</h4>
+		<div class="container-fluid">
+			<hr class="mb-4">
+			<div class="d-flex flex-wrap flex-row justify-content-center align-items-center">
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-4" style="width: 18rem;">
+						<img src="prestige.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title text-center">Prestige</h5>
+						  <p class="card-text text-center">With it's dramatic angles, the Prestige award is one of our most dramatic and valued pieces.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+						  <li class="list-group-item">Available in custom sizes</li>
+						  <li class="list-group-item">Full VeriColor imprinting</li>
+						  <li class="list-group-item">Microcut base standard</li>
+						</ul>
+						<div class="card-body">
+						  <a class="card-link">Explore the Prestige Award</a>
+						</div>
+					</div>
+				</div>
+				
+
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-4" style="width: 18rem;">
+						<img src="teardrop.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title text-center">Excellece</h5>
+							<p class="card-text text-center">The thick, smooth glass present in Excellence's teardrop design exudes timelessness and class.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Available in two sizes</li>
+							<li class="list-group-item">Full VeriColor imprinting</li>
+							<li class="list-group-item">Microcut base standard </li>
+						</ul>
+						<div class="card-body">
+							<a class="card-link">Explore the Excellence Award</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-4" style="width: 18rem;">
+						<img src="pyramid.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title text-center">Achievement</h5>
+							<p class="card-text text-center">With its steep vertical ascent, nothing says 'a job well done' like the Achievement award.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Available in two sizes</li>
+							<li class="list-group-item">Full VeriColor imprinting</li>
+							<li class="list-group-item">Buy 1 Get 1 Free</li>
+						</ul>
+						<div class="card-body">
+							<a class="card-link">Explore the Achievement Award</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="Product List" class="products">
+		<h4 class=text-center>Product Catalog</h4>
+		<div class="container-fluid">
+			<hr class="mb-4">
+			<div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+				
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-3" style="width: 18rem;">
+						<img src="award.jpg" class="card-img-top card-pic" alt="...">
+						<div class="card-body text-center catalog">
+							<button type="button" class="btn btn-outline-success">Awards</button>
+						</div>
+					  </div>
+				</div>
+				
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-3" style="width: 18rem;">
+						<img src="ribbon.jpg" class="card-img-top card-pic" alt="...">
+						<div class="card-body text-center catalog">
+							<button type="button" class="btn btn-outline-success">Ribbons</button>
+						</div>
+					  </div>
+				</div>
+				
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-3" style="width: 18rem;">
+						<img src="watch.jpg" class="card-img-top card-pic" alt="...">
+						<div class="card-body text-center catalog">
+							<button type="button" class="btn btn-outline-success">Watches</button>
+						</div>
+					  </div>
+				</div>
+
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-3" style="width: 18rem;">
+						<img src="clock.jpg" class="card-img-top card-pic" alt="...">
+						<div class="card-body text-center catalog">
+							<button type="button" class="btn btn-outline-success">Clocks</button>
+						</div>
+					  </div>
+				</div>
+				
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-3" style="width: 18rem;">
+						<img src="jewlery.jpeg" class="card-img-top card-pic"  alt="...">
+						<div class="card-body text-center catalog">
+							<button type="button" class="btn btn-outline-success">Jewlery</button>
+						</div>
+					  </div>
+				</div>
+				
+				
+
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-3" style="width: 18rem;">
+						<img src="drinkware.jpg" class="card-img-top card-pic" alt="...">
+						<div class="card-body text-center catalog">
+							<button type="button" class="btn btn-outline-success">Drinkware</button>
+						</div>
+					  </div>
+				</div>
+				
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-3" style="width: 18rem;">
+						<img src="pen.jpg" class="card-img-top card-pic" alt="...">
+						<div class="card-body text-center catalog">
+							<button type="button" class="btn btn-outline-success">Pens</button>
+						</div>
+					  </div>
+				</div>
+
+				
+				
+				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
+					<div class="card mb-3" style="width: 18rem;">
+						<img src="journal.jpg" class="card-img-top card-pic" alt="...">
+						<div class="card-body text-center catalog">
+							<button type="button" class="btn btn-outline-success">Diaries</button>
+						</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div id="About Us" class = "about">
+		<h4 class="text-center">About Us</h4>
+		<div class="container-fluid">
+			<hr class="mb-3">
+			<div class="d-flex row text-center">
+				<div class="col-lg-4 ">
+					<img src = "icons8-idea-96.png">
+					<h5>Founding</h5>
+					<p>Since 1997, Castle Awards has been providing our clients with personalized
+						service and the highest quality of crafstmanship.
+					</p>
+				</div>
+
+				<div class="col-lg-4">
+					<img src = "icons8-mission-96.png">
+					<h5>Mission</h5>
+					<p>We invest time to build long lasting relationships with our clients.
+						We believe in courtesy, honesty, and dedication.
+					</p>
+				</div>
+
+				<div class="col-lg-4">
+					<img src = "icons8-quality-96.png">
+					<h5>Quality</h5>
+					<p>We keep nearly all of our work on premises, allowing us to guarantee deadliens while maintaining
+						high standards of work. 
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="Contact Us" class="contact">
+		<h4 class=text-center>Contact Us</h4>
+		<div class="container-fluid">
+			<hr class="mb-3">
+			<div class="d-flex row text-center">
+				<div class="col">
+					<img src = "icons8-email-96.png">
+					<a class="card-link">sales@castleawards.com</a>
+				</div>
+				<div class="col">
+					<img src = "icons8-call-96.png"><br>
+					<a class="card-link">401-435-3023</a>
+				</div>
+				<div class="col">
+					<img src = "icons8-fax-96.png"><br>
+					<a class="card-link">401-438-7690</a>
+				</div>
+				<div class="col">
+					<img src = "icons8-open-door-96.png">
+					<p>Mon-Fri: 9:00-4:30</p>
+				</div>
+				<div class="col">
+					<img src = "icons8-address-96.png">
+					<p>100 Warren Ave <br> East Providence, RI</p>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+  
   </body>
 </html>

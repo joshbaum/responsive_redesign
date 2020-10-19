@@ -1,1 +1,66 @@
 /* Put your style information here! */
+.trophy {
+    background: url("chess3.jpg") center;
+    background-size: cover;
+    height: calc(100vh - 56px);
+    filter: grayscale(50%);
+}
+
+.showroom {
+    background: url("showroom.jpg") center;
+    background-size: cover;
+    padding-bottom: 3rem;
+}
+
+h1 {
+    font-size: 600% ;
+}
+
+h3 {
+    font-size: 250%;
+}
+h1, h3 {
+    color: black;
+    font-family: 'Crimson Text', serif;
+}
+
+h4, h5 {
+    font-family: 'Piazzolla', serif;
+
+}
+
+p .list-group-item a {
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.about {
+    background-color: #D5F3FE;
+}
+
+.contact {
+    background-color: #f9e6ff;
+}
+
+.catalog {
+    background-color: #a8e3bc;
+}
+
+.card-pic {
+    height: 9rem;
+}
+
+.products {
+    background-color: #faf2dc;
+}
+
+hr {
+    margin: 0%;
+    width: 75%;
+    margin: auto;
+    color: black;
+}
