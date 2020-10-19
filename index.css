@@ -1,6 +1,6 @@
 /* Put your style information here! */
 .trophy {
-    background: url("chess3.jpg") center;
+    background: url("chess.jpg") center;
     background-size: cover;
     height: calc(100vh - 56px);
     filter: grayscale(50%);
@@ -29,7 +29,15 @@ h4, h5 {
 
 }
 
-p .list-group-item a {
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.list-group-item {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
     font-family: 'Raleway', sans-serif;
 }
 
