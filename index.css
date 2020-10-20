@@ -3,7 +3,7 @@
     background: url("chess.jpg") center;
     background-size: cover;
     height: calc(100vh - 56px);
-    filter: grayscale(50%);
+    filter: opacity(.7);
 }
 
 .showroom {
@@ -13,7 +13,7 @@
 }
 
 h1 {
-    font-size: 600% ;
+    font-size: 600%;
 }
 
 h3 {
