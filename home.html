@@ -3,12 +3,12 @@
 <html lang="en">
   <head>
 	<meta charset="utf-8">
-	<title>Responsive Redesign</title>
+	<title>Responsive Redesign Handin</title>
 	<link rel="stylesheet" href="bootstrap.css">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="handin_index.css">
 	<meta content="width=device-width, initial-scale=1" name="viewport"/>
   </head>
 
@@ -18,22 +18,15 @@
 	<!-- Nav Bar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container-fluid">
-		  <a class="navbar-brand" href="#Home">Castle Awards</a>
 		  <div class="collapse navbar-collapse">
 			<ul class="navbar-nav mr-auto mb-lg-0">
-			<li class="nav-item"> <a class="nav-link" href="#Featured_Products">Featured Products</a></li>
-			  <li class="nav-item"> <a class="nav-link" href="#Product_List">Product Catalog</a></li>
-			  <li class="nav-item"> <a class="nav-link" href="#About_Us">About Us</a></li>
-			  <li class="nav-item"> <a class="nav-link" href="#Contact_Us">Contact Us</a></li>
+			<li class="nav-item"> <a class="nav-link" href="#Overview">Overview</a></li>
+			  <li class="nav-item"> <a class="nav-link" href="#Usability">Usability</a></li>
+			  <li class="nav-item"> <a class="nav-link" href="#Low_Fid">Low Fidelity</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#High_Fid">High Fidelity</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#Visual_Style">Style Guide</a></li>
+			  <li class="nav-item"> <a class="nav-link" href="#Redesign">Redesign</a></li>
 			</ul>
-			<ul class="navbar-nav ml-auto mr-2 mb-lg-0">
-				<li class="nav-item"> <a class="nav-link" href="#">Sign Up</a></li>
-				<li class="nav-item"> <a class="nav-link" href="#">Log In</a></li>
-			  </ul>
-			<form class="d-flex">
-				<input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-dark" type="submit">Search</button>
-			</form>
 		  </div>
 		</div>
 	</nav>
@@ -42,230 +35,194 @@
 	<!-- Landing Area Text + Underlayed Image -->
 	<div id="Home" class="d-flex flex-column trophy justify-content-center align-items-center text-center">
 		<div class="boost">
-			<h1> Castle Awards</h1>
-			<h3>Bringing People Together <br> One Trophy At A Time</h3>
+			<h1> Responsive Redesign</h1>
+			<h3>An In-Depth Look at Castle Awards</h3>
 		</div>
 	</div>
 
 
 	<!-- Featured Product Cards: Grid + Flex -->
-	<div id="Featured_Products" class="showroom">
-		<h4 class="text-center">Featured Products</h4>
-		<div class="container-fluid">
-			<hr class="mb-4">
-			<div class="d-flex flex-wrap flex-row justify-content-center align-items-center">
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-4" style="width: 18rem;">
-						<img src="prestige.jpg" class="card-img-top" alt="Prestige Award">
-						<div class="card-body">
-						  <h5 class="card-title text-center">Prestige</h5>
-						  <p class="card-text text-center">With its dramatic angles, the Prestige award is one of our most dramatic and valued pieces.</p>
-						</div>
-						<ul class="list-group list-group-flush">
-						  <li class="list-group-item">Available in custom sizes</li>
-						  <li class="list-group-item">Full VeriColor imprinting</li>
-						  <li class="list-group-item">Microcut base standard</li>
-						</ul>
-						<div class="card-body">
-						  <a class="card-link">Explore the Prestige Award</a>
-						</div>
-					</div>
-				</div>
-				
+	<div id="Overview" class="overview">
+		<h4 class="text-center">Overview</h4>
+		<div class="container-fluid text-center">
+            <hr class="mb-4">
+            <p>
+                I began this assignment by searching for a website with poor usability and accessiblity features. <br><br>
+                A surprising number of websites are awesome these days! Eventually though, I came across
+                <a href="https://www.castleawards.com/">Castle Awards</a>, a local awards and gadget shop in Providence. <br><br>
+                Let's look at some screenshots of the site!
+            </p>
 
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-4" style="width: 18rem;">
-						<img src="teardrop.jpg" class="card-img-top" alt="Excellence Trophy">
-						<div class="card-body">
-							<h5 class="card-title text-center">Excellence</h5>
-							<p class="card-text text-center">The thick, smooth glass present in Excellence's teardrop design exudes timelessness and class.</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Available in two sizes</li>
-							<li class="list-group-item">Full VeriColor imprinting</li>
-							<li class="list-group-item">Microcut base standard </li>
-						</ul>
-						<div class="card-body">
-							<a class="card-link">Explore the Excellence Award</a>
-						</div>
-					</div>
-				</div>
+            <div class="d-flex flex-row flex-wrap align-items-center justify-content-center pt-3">
+                <div class="d-flex flex-column pr-4">
+                    <img src="Castle_Awards_Short.png" class="castle">
+                </div>
 
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-4" style="width: 18rem;">
-						<img src="pyramid.jpg" class="card-img-top" alt="Achievement Trophy">
-						<div class="card-body">
-							<h5 class="card-title text-center">Achievement</h5>
-							<p class="card-text text-center">With its steep vertical ascent, nothing says 'a job well done' like the Achievement award.</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Available in two sizes</li>
-							<li class="list-group-item">Full VeriColor imprinting</li>
-							<li class="list-group-item">Buy 1 Get 1 Free</li>
-						</ul>
-						<div class="card-body">
-							<a class="card-link">Explore the Achievement Award</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                <div class="d-flex flex-column">
+                    <img src="Castle_Awards_Long.png" class="castle">
+                </div>
+            </div>
+            <div class="d-flex flex-row flex-wrap align-items-center justify-content-center pt-3 pb-4">
+                <div class="d-flex flex-column pr-4">
+                    <img src="Castle_Awards_Bot.png" class="castle">
+                </div>
+            </div>
 
-
-	<!-- Product Gallery: Grid + Flex -->
-	<div id="Product_List" class="products">
-		<h4 class=text-center>Product Catalog</h4>
-		<div class="container-fluid">
-			<hr class="mb-4">
-			<div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
-				
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-3" style="width: 18rem;">
-						<img src="award.jpg" class="card-img-top card-pic" alt="Award Catalog">
-						<div class="card-body text-center catalog">
-							<button type="button" class="btn btn-outline-light">Awards</button>
-						</div>
-					  </div>
-				</div>
-				
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-3" style="width: 18rem;">
-						<img src="ribbon.jpg" class="card-img-top card-pic" alt="Ribbon Catalog">
-						<div class="card-body text-center catalog">
-							<button type="button" class="btn btn-outline-light">Ribbons</button>
-						</div>
-					  </div>
-				</div>
-				
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-3" style="width: 18rem;">
-						<img src="watch.jpg" class="card-img-top card-pic" alt="Watch Catalog">
-						<div class="card-body text-center catalog">
-							<button type="button" class="btn btn-outline-light">Watches</button>
-						</div>
-					  </div>
-				</div>
-
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-3" style="width: 18rem;">
-						<img src="clock.jpg" class="card-img-top card-pic" alt="Clock Catalog">
-						<div class="card-body text-center catalog">
-							<button type="button" class="btn btn-outline-light">Clocks</button>
-						</div>
-					  </div>
-				</div>
-				
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-3" style="width: 18rem;">
-						<img src="jewlery.jpeg" class="card-img-top card-pic"  alt="Jewlery Catalog">
-						<div class="card-body text-center catalog">
-							<button type="button" class="btn btn-outline-light">Jewlery</button>
-						</div>
-					  </div>
-				</div>
-				
-				
-
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-3" style="width: 18rem;">
-						<img src="drinkware.jpg" class="card-img-top card-pic" alt="Drinkware Catalog">
-						<div class="card-body text-center catalog">
-							<button type="button" class="btn btn-outline-light">Drinkware</button>
-						</div>
-					  </div>
-				</div>
-				
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-3" style="width: 18rem;">
-						<img src="pen.jpg" class="card-img-top card-pic" alt="Pen Catalog">
-						<div class="card-body text-center catalog">
-							<button type="button" class="btn btn-outline-light">Pens</button>
-						</div>
-					  </div>
-				</div>
-
-				
-				
-				<div class="d-flex flex-col col-lg-3 col-sm-6 align-items-center justify-content-center">
-					<div class="card mb-3" style="width: 18rem;">
-						<img src="journal.jpg" class="card-img-top card-pic" alt="Diary Catalog">
-						<div class="card-body text-center catalog">
-							<button type="button" class="btn btn-outline-light">Diaries</button>
-						</div>
-					  </div>
-				</div>
-			</div>
+            <p>
+                Needless to say, this website has some issues. That makes it a great candidate for a redesign! <br><br>
+                The rest of the project will go as follows: <br><br>
+                <ol style="text-align: center; list-style-position: inside; padding-bottom: 2rem;">
+                    <li>Discussion of the site's usability and accessiblity issues</li>
+                    <li>Low fidelity wireframes of site redesign</li>
+                    <li>High fidelity prototypes of site redesign</li>
+                    <li>Visual design style guide of site redesign</li>
+                    <li>The redesigned site :)</li>
+                </ol>
+            </p>
 		</div>
 	</div>
 
 
 
-
-	<!-- About Us: Grid + Flex -->
-	<div id="About_Us" class = "about">
-		<h4 class="text-center">About Us</h4>
+	<div id="Usability" class="usability">
+		<h4 class=text-center>Usability + Accessiblity</h4>
 		<div class="container-fluid">
-			<hr class="mb-3">
-			<div class="d-flex flex-row flex-wrap text-center align-items-center justify-content-center">
-				<div class="d-flex flex-column col-lg-4 col-sm-6 align-items-center justify-content-center">
-					<img src = "icons8-idea-96.png" class="icon" alt="Founding Icon">
-					<h5>Founding</h5>
-					<p>Since 1997, Castle Awards has been providing our clients with personalized
-						service and the highest quality of crafstmanship.
-					</p>
-				</div>
-
-				<div class="d-flex flex-column col-lg-4 col-sm-6 align-items-center justify-content-center">
-					<img src = "icons8-mission-96.png" class="icon" alt="Mission Icon">
-					<h5>Mission</h5>
-					<p>We invest time to build long lasting relationships with our clients.
-						We believe in courtesy, honesty, and dedication.
-					</p>
-				</div>
-
-				<div class="d-flex flex-column col-lg-4 col-sm-6 align-items-center justify-content-center">
-					<img src = "icons8-quality-96.png" class="icon" alt="Quality Icon">
-					<h5>Quality</h5>
-					<p>We keep nearly all of our work on premises, allowing us to guarantee deadlines while maintaining
-						high standards of work. 
-					</p>
-				</div>
-			</div>
+            <hr class="mb-4">
+            <h5 class="text-center">Key Usability Issues:</h5>
+            <ul class="text-center" style="list-style-position: inside;">
+                <li>
+                    Heading at top is very thick and messy and takes up most of the landing view. It provides nothing of value.
+                </li>
+                <li>
+                    The two images in the carousel are different heights, thus shifting the entire page
+                    vertically as they rotate. This is very annoying.
+                </li>
+                <li>
+                    There is no clear organization or heirarchy on the page. All information is scattered.
+                </li>
+                <li>
+                    It is generally very difficult to consume the infromation. The font is small and text is disorderly and misaligned.
+                </li>
+                <li>
+                    The pile of links below the main images is overwhelming and is difficult to navigate.
+                </li>
+                <li>
+                    The webpage is completely unresponsive. It is the same size on any device and requires lateral scolling 
+                    (i.e. it doesn't fit to the screen).
+                </li>
+            </ul>
+            <br><br>
+            <h5 class="text-center">Key Accessiblity Issues:</h5>
+            <p class="text-center" style="padding-left: 8rem; padding-right: 8rem;">
+                I ran the Web Accessiblity Evaluation Tool (WAVE) on Castle Awards' website. Interestingly,
+                I only found one contrast error - in the search bar on a tablet-sized screen. It also found
+                that nearly every image lacked proper 'alt' text. <br><br> In my opinion, they key accessiblity issue
+                on this site is that everything except for the links is an image: the awards + descriptions,
+                the header at the top, the 'about us' at the bottom. There is no actual text on the site. 
+                This is a huge problem for screen readers. They can't parse the text in the image! 
+                I made sure to change this in my redesign.
+            </p>
 		</div>
-	</div>
-
-
-	<!-- Contact Us: Grid + Flex -->
-	<div id="Contact_Us" class="contact">
-		<h4 class=text-center>Contact Us</h4>
+    </div>
+    
+	<div id="Low_Fid" class="low_fid">
+		<h4 class=text-center>Low Fidelity Wireframes</h4>
 		<div class="container-fluid">
-			<hr class="mb-3">
-			<div class="d-flex flex-row flex-wrap text-center align-items-center justify-content-center">
-				<div class="d-flex flex-column col-lg-2 col-sm-6 col-12 align-items-center justify-content-center pb-2">
-					<img src = "icons8-email-96.png" class="icon" alt="Email Icon">
-					<a class="card-link">sales@castleawards.com</a>
-				</div>
-				<div class="d-flex flex-column col-lg-2 col-sm-6 col-12 align-items-center justify-content-center pb-2">
-					<img src = "icons8-phone-96.png" class="icon" alt="Phone Icon">
-					<a class="card-link">401-435-3023</a>
-				</div>
-				<div class="d-flex flex-column col-lg-2 col-sm-6 col-12 align-items-center justify-content-center pb-2">
-					<img src = "icons8-fax-96.png" class="icon" alt="Fax Icon">
-					<a class="card-link">401-438-7690</a>
-				</div>
-				<div class="d-flex flex-column col-lg-2 col-sm-6 col-12 align-items-center justify-content-center pb-2">
-					<img src = "icons8-open-door-96.png" class="icon" alt="Hours Icon">
-					<p>Mon-Fri: 9:00-4:30</p>
-				</div>
-				<div class="d-flex flex-column col-lg-2 col-sm-6 col-12 align-items-center justify-content-center pb-2">
-					<img src = "icons8-address-96.png" class="icon" alt="Location Icon">
-					<p>100 Warren Ave <br> East Providence, RI</p>
-				</div>
-			</div>
+            <hr class="mb-4">
+            <p class="text-center" style="padding-left: 8rem; padding-right: 8rem;">
+                Now that I have a better understanding of the issues with the original site, I set out to
+                create low fidelity wireframes on web, tablet, and mobile using Balsamiq. They sketch out what my
+                redesigned site will abstractly look like. I put special emphasis to watch
+                out for the key usability and accessiblity issues I laid out above. <br><br>
+            </p>
+
+            <h5 class="text-center">
+                Low-Fidelity Web Wireframe + Annotations
+            </h5>
+            <div class="d-flex flex-row align-items-center justify-content-center">
+                <img src="Low_Fi_Web_Annotated.jpg" class="low_fi">
+            </div>
+           
+            <br><br>
+            
+            <h5 class="text-center">
+                Low-Fidelity Tablet Wireframe + Annotations
+            </h5>
+            <div class="d-flex flex-row align-items-center justify-content-center">
+                <img src="Low_Fi_Tablet_Annotated.jpg" class="low_fi">
+            </div>
+
+            <br><br>
+
+            <h5 class="text-center">
+                Low-Fidelity Mobile Wireframe + Annotations
+            </h5>
+            <div class="d-flex flex-row align-items-center justify-content-center">
+                <img src="Low_Fi_Mobile_Annotated.jpg" class="low_fi">
+            </div>
+            
 		</div>
-		
-	</div>
+    </div>
+    
+	<div id="High_Fid" class="hi_fid">
+		<h4 class=text-center>High Fidelity Prototypes</h4>
+		<div class="container-fluid">
+            <hr class="mb-4">
+            <p class="text-center" style="padding-left: 8rem; padding-right: 8rem;">
+                After having created the low-fi wireframes, I will now move on to creating a
+                high-fi prototype of my redesigned site using AdobeXD. The high-fi prototype is meant
+                to mirror what my final site will actually look like across the three devices. 
+                
+                <br><br>
+
+                <h5 class="text-center">
+                    High-Fidelity Web Prototype + Annotations
+                </h5>
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <img src="Hi_Fi_Web_Annotated.jpg" class="low_fi">
+                </div>
+
+                <br><br>
+
+                <h5 class="text-center">
+                    High-Fidelity Tablet Prototype + Annotations
+                </h5>
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <img src="Hi_Fi_Tablet_Annotated.jpg" class="low_fi">
+                </div>
+
+                <br><br>
+
+                <h5 class="text-center">
+                    High-Fidelity Mobile Prototype + Annotations
+                </h5>
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <img src="Hi_Fi_Mobile_Annotated.jpg" class="low_fi">
+                </div>
+            </p>
+		</div>
+    </div>
+
+    <div id="Visual_Style" class="vis">
+		<h4 class=text-center>Visual Design Style Guide</h4>
+		<div class="container-fluid text-center">
+            <hr class="mb-4">
+            <div>GUIDE HERE</div>
+        </div>
+        <br><br>
+    </div>
+
+    <div id="Redesign" class="resp">
+		<h4 class=text-center>Responsive Redesign</h4>
+		<div class="container-fluid text-center">
+            <hr class="mb-4">
+            <p style="padding-left: 8rem; padding-right: 8rem;">Now that the low-fi, hi-fi, and design style guide are done, we can make the redesigned website!
+               Check it out at the link below. It's responsive to multiple screen sizes, has no accessiblity errors,
+            and will make you want to buy a trophy! </p> <br>
+            <button class="btn btn-outline-primary" type="submit"><a href="castle.html">Redesigned Site!</a></button>
+        </div>
+        <br><br>
+    </div>
   
   </body>
 </html>
