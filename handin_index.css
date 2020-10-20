@@ -1,0 +1,111 @@
+/* Put your style information here! */
+.trophy {
+    background: url("chess.jpg") center;
+    background-size: cover;
+    height: calc(100vh - 56px);
+    filter: opacity(.7);
+}
+
+.showroom {
+    background: url("showroom.jpg") center;
+    background-size: cover;
+    padding-bottom: 3rem;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.overview {
+    background-color: beige;
+}
+
+.usability {
+    background-color: papayawhip;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    font-size: 600%;
+}
+
+h3 {
+    font-size: 250%;
+}
+h1, h3 {
+    color: black;
+    font-family: 'Crimson Text', serif;
+}
+
+.castle {
+    width: 600px;
+    height: 400px;
+}
+
+h4, h5 {
+    font-family: 'Piazzolla', serif;
+
+}
+
+
+h4 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.about {
+    background-color: #f0f0f0;
+}
+
+.contact {
+    background-color: white;
+}
+
+.catalog {
+    background-color: black;
+}
+
+.card-pic {
+    height: 9rem;
+}
+
+.products {
+    background-color: white;
+}
+
+hr {
+    margin: 0%;
+    width: 75%;
+    margin: auto;
+    color: black;
+}
+
+.icon {
+    max-width: 96px;
+}
+
+p, ol, li, ul {
+    margin-block-end: 0;
+}
+
+.low_fid {
+    background-color: azure;
+    padding-bottom: 2rem;
+}
+
+.low_fi {
+    width: 80%;
+}
+
+.hi_fid {
+    background-color: blanchedalmond;
+    padding-bottom: 2rem;
+}
+
+.vis {
+    background-color: whitesmoke;
+}
+
+.resp {
+    background-color: bisque;
+}
